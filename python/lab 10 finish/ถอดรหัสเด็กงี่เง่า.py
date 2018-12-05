@@ -1,0 +1,7 @@
+passage = str(input())
+a = passage.replace('apa','a')
+e = a.replace('epe','e')
+i = e.replace('ipi','i')
+o = i.replace('opo','o')
+u = o.replace('upu','u')
+print(u)

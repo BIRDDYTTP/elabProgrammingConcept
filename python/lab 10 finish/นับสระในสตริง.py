@@ -1,0 +1,8 @@
+passage = str(input())
+passage = str.upper(passage)
+a = passage.count('A')
+e = passage.count('E')
+i = passage.count('I')
+o = passage.count('O')
+u = passage.count('U')
+print(a+e+i+o+u)

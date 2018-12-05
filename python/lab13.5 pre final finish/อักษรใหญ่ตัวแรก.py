@@ -1,0 +1,7 @@
+s = str(input())
+s = s.title()
+s = s.replace('For','for')
+s = s.replace('And','and')
+s = s.replace('With','with')
+s = s.replace('Of','of')
+print(s)

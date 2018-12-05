@@ -1,0 +1,12 @@
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+x = abs(num1)
+y = abs(num2)
+while y != 0:
+       t = y
+       y = x%y
+       x = t
+gcd = x
+lcm = (num1*num2) / gcd
+print("  >> gcd(%d, %d) =%7d"%(num1,num2,gcd));
+print("  >> lcm(%d, %d) =%7d"%(num1,num2,lcm));
